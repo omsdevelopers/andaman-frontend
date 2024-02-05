@@ -1,0 +1,64 @@
+@media (max-width: 767.98px) {
+  .luxury_package_title {
+    font-size: 14px;
+    line-height: 20px !important;
+  }
+
+  .luxury_package_details {
+    display: none;
+  }
+
+  .luxury_package_location {
+    display: none;
+  }
+
+  .luxury_package_meta {
+    margin-top: 0px !important;
+  }
+
+  /* home hero slider */
+  .home_slider_arrows {
+    display: none;
+  }
+
+  .hero_slider_title {
+    font-size: 25px !important;
+    line-height: 26px !important;
+  }
+  /* home hero slider */
+
+  .home_titles {
+    font-size: 18px !important;
+  }
+
+  /* popular package slider */
+
+  .home_popular_image {
+    height: 280px !important;
+  }
+
+  .home_popular_title {
+    font-size: 14px !important;
+  }
+
+  /* home testinomial */
+
+  .home_testinomial {
+    font-size: 15px !important;
+  }
+  /* home testinomial */
+  
+  .beach_title{
+    font-size: 20px !important;
+  }
+
+  .beach_image{
+    display: none;
+  }
+}
+
+
+.custom_glassmorphism{
+    background-color: #1d231fa8;
+    backdrop-filter: blur(10px);
+}
