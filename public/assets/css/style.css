@@ -906,8 +906,10 @@ button {
 .header-navigation .main-menu ul > li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
-  top: 100%;
+  top: 100%; 
 }
+
+
 .header-navigation.breakpoint-on .nav-search .form_control {
   border: 1px solid #e1e1e1;
   padding: 15px 20px;

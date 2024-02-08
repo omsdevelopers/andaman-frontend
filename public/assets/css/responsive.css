@@ -46,19 +46,69 @@
   .home_testinomial {
     font-size: 15px !important;
   }
-  /* home testinomial */
-  
-  .beach_title{
+  /* home testinomial end */
+
+  .beach_title {
     font-size: 20px !important;
   }
 
-  .beach_image{
+  .beach_image {
     display: none;
   }
+
+  /* destination page */
+  .destination_title {
+    font-size: 15px !important;
+  }
+
+  .destination_hidden {
+    display: none;
+  }
+
+  .destination_description {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .mobile_view_background {
+    height: auto !important;
+  }
+
+  .mobile_video {
+    object-fit: contain !important;
+  }
+  /* destination page end*/
 }
 
-/* 
-.custom_glassmorphism{
-    background-color: #1d231fa8;
-    backdrop-filter: blur(10px);
-} */
+/* destination header customization */
+
+.sub-menu-for-destination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.header-navigation .main-menu ul > li:hover > .sub-menu-for-destination {
+  width: 50vw;
+  left: -210px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.region {
+  display: flex;
+  flex-direction: column;
+}
+
+.region h3 {
+  margin: 0;
+}
+
+.countries {
+  margin: 16px;
+  cursor: pointer;
+}
+
+.sub-menu .countries p:hover {
+  background-color: rgba(73, 247, 30, 0.1);
+}

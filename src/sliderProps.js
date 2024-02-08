@@ -128,6 +128,37 @@ export const sliderActive3Item = {
     },
   ],
 };
+
+export const sliderBlog = {
+  dots: true,
+  arrows: false,
+  infinite: true,
+  speed: 800,
+  autoplay: false,
+  slidesToShow: 1.5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1.5,
+      },
+    },
+  ],
+};
+
 export const sliderActive3ItemDot = {
   dots: true,
   arrows: false,

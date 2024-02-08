@@ -40,7 +40,7 @@ const Header3 = () => {
               <div className="site-brading">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-black.png" alt="Logo" />
+                    <img src="/assets/images/logo/logo-black.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
@@ -111,7 +111,7 @@ const Header3 = () => {
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-white.png" alt="Logo" />
+                  <img src="/assets/images/logo/logo-white.png" alt="Logo" />
                 </a>
               </Link>
             </div>
@@ -122,7 +122,7 @@ const Header3 = () => {
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/logo-black.png"
+                      src="/assets/images/logo/logo-black.png"
                       alt="Site Logo"
                     />
                   </a>

@@ -100,12 +100,63 @@ const DeskTopMenu = () => {
 
           <li className="menu-item has-children">
             <a href="#">Destination</a>
-            <ul className="sub-menu">
+            <ul className="sub-menu sub-menu-for-destination">
               <li>
-                <Link href="blog-list">Blog List</Link>
+                <div class="region">
+                  <h3 className="sub-title">INDIA & INDIAN OCEAN</h3>
+                  <div class="countries">
+                    <Link href="/destination/india"><p>India</p></Link>
+                    <p>Maldives</p>
+                    <p>Mauritius</p>
+                    <p>Seychelles</p>
+                    <p>Sri Lanka</p>
+                  </div>
+                </div>
               </li>
               <li>
-                <Link href="blog-details">Blog Details</Link>
+                <div class="region">
+                  <h3 className="sub-title">ASIA</h3>
+                  <div class="countries">
+                    <p>Thailand</p>
+                    <p>Indonesia - Bali</p>
+                    <p>Hong-Kong</p>
+                    <p>Malaysia - Kuala Lumpur</p>
+                    <p>Singapore</p>
+                    <p>Vietnam</p>
+                    <p>Bhutan</p>
+                    <p>Cambodia</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="region">
+                  <h3 className="sub-title">ARABIA & NORTH AFRICA</h3>
+                  <div class="countries">
+                    <p>United Arab Emirates - Dubai</p>
+                    <p>United Arab Emirates - Abu Dhabi</p>
+                    <p>Qatar - Doha</p>
+                    <p>Egypt</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="region">
+                  <h3 className="sub-title">EUROPE</h3>
+                  <div class="countries">
+                    <p>Austria</p>
+                    <p>Denmark</p>
+                    <p>France</p>
+                    <p>Germany</p>
+                    <p>Greece</p>
+                    <p>Hungary</p>
+                    <p>Italy</p>
+                    <p>Netherlands</p>
+                    <p>Portugal</p>
+                    <p>Switzerland</p>
+                    <p>Spain</p>
+                    <p>Turkey</p>
+                  </div>
+                </div>
               </li>
             </ul>
           </li>
@@ -114,22 +165,22 @@ const DeskTopMenu = () => {
             <a href="#">Hotels and Resorts</a>
             <ul className="sub-menu">
               <li>
-                <Link href="about">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li>
-                <Link href="gallery">Our Gallery</Link>
+                <Link href="/gallery">Our Gallery</Link>
               </li>
               <li>
-                <Link href="events">Our Events</Link>
+                <Link href="/events">Our Events</Link>
               </li>
               <li>
-                <Link href="shop">Our Shop</Link>
+                <Link href="/shop">Our Shop</Link>
               </li>
               <li>
-                <Link href="product-details">Product Details</Link>
+                <Link href="/product-details">Product Details</Link>
               </li>
               <li>
-                <Link href="contact">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </li>
@@ -250,12 +301,12 @@ const MobileMenu = () => {
             Water Sports
             <span
               className="dd-trigger"
-              onClick={() => activeMenuSet("Destination")}
+              onClick={() => activeMenuSet("Destinations")}
             >
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Destination")}>
+          <ul className="sub-menu" style={activeLi("Destinations")}>
             <li>
               <Link href="#">Destination</Link>
             </li>
@@ -264,22 +315,75 @@ const MobileMenu = () => {
             </li>
           </ul>
         </li>
+
         <li className="menu-item has-children">
           <a href="#">
             Destination
-            <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
+            <span className="dd-trigger" onClick={() => activeMenuSet("Destination")}>
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Blog")}>
-            <li>
-              <Link href="#">Blog List</Link>
-            </li>
-            <li>
-              <Link href="#">Blog Details</Link>
-            </li>
-          </ul>
+          <ul className="sub-menu" style={activeLi("Destination")}>
+              <li>
+                <div class="region">
+                  <h3 className="sub-title">INDIA & INDIAN OCEAN</h3>
+                  <div class="countries">
+                    <p>India</p>
+                    <p>Maldives</p>
+                    <p>Mauritius</p>
+                    <p>Seychelles</p>
+                    <p>Sri Lanka</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="region">
+                  <h3 className="sub-title">ASIA</h3>
+                  <div class="countries">
+                    <p>Thailand</p>
+                    <p>Indonesia - Bali</p>
+                    <p>Hong-Kong</p>
+                    <p>Malaysia - Kuala Lumpur</p>
+                    <p>Singapore</p>
+                    <p>Vietnam</p>
+                    <p>Bhutan</p>
+                    <p>Cambodia</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="region">
+                  <h3 className="sub-title">ARABIA & NORTH AFRICA</h3>
+                  <div class="countries">
+                    <p>United Arab Emirates - Dubai</p>
+                    <p>United Arab Emirates - Abu Dhabi</p>
+                    <p>Qatar - Doha</p>
+                    <p>Egypt</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="region">
+                  <h3 className="sub-title">EUROPE</h3>
+                  <div class="countries">
+                    <p>Austria</p>
+                    <p>Denmark</p>
+                    <p>France</p>
+                    <p>Germany</p>
+                    <p>Greece</p>
+                    <p>Hungary</p>
+                    <p>Italy</p>
+                    <p>Netherlands</p>
+                    <p>Portugal</p>
+                    <p>Switzerland</p>
+                    <p>Spain</p>
+                    <p>Turkey</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
         </li>
+
         <li className="menu-item has-children">
           <a href="#">
             Hotels and Resorts
